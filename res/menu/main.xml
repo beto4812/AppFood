@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.agencia.MainActivity" >
+
+    <item
+        android:id="@+id/action_log_in"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_log_in"/>
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_search"/>
+
+
+</menu>

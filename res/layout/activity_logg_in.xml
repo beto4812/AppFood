@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.agencia.loggin.LogInActivity" >
+
+    <EditText
+        android:id="@+id/LogInActivity_editTextUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/LogInActivity_textView1"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/LogInActivity_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Introduce tu usuario y contraseña:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/LogInActivity_editTextContrasena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/LogInActivity_editTextUsuario"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/LogInActivity_editTextUsuario"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/LogInActivity_buttonLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/LogInActivity_editTextContrasena"
+        android:text="Log In" />
+
+    <Button
+        android:id="@+id/LogInActivity_buttonRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/LogInActivity_editTextUsuario"
+        android:text="Registro" />
+
+</RelativeLayout>
